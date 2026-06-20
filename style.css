@@ -165,6 +165,70 @@ h1{
     right:25%;
 }
 
+#controls{
+
+    margin:15px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+}
+
+#controls button{
+
+    padding:10px 20px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#00ff99;
+
+    color:black;
+
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+#mobileControls{
+
+    margin-top:20px;
+
+    display:none;
+}
+
+#mobileControls button{
+
+    width:60px;
+
+    height:60px;
+
+    font-size:24px;
+
+    margin:5px;
+
+    border:none;
+
+    border-radius:50%;
+}
+
+@media (max-width: 768px){
+
+    #mobileControls{
+
+        display:block;
+    }
+
+    #board{
+
+        width:90vw;
+        height:90vw;
+    }
+}
+
 .cell{
 
     border:none;

@@ -158,6 +158,26 @@ function drawSnake() {
     });
 }
 
+function setAIMode(){
+
+    aiMode = true;
+
+    currentPath = [];
+
+    document.getElementById("mode").innerText =
+        "Mode: AI";
+}
+
+function setManualMode(){
+
+    aiMode = false;
+
+    currentPath = [];
+
+    document.getElementById("mode").innerText =
+        "Mode: Manual";
+}
+
 function drawFood() {
 
     const cells = document.querySelectorAll(".cell");

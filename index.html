@@ -12,6 +12,30 @@ M = Manual Mode |
 R = Reset High Score
 </p>
 
+<div id="controls">
+
+    <button onclick="setAIMode()">🤖 AI</button>
+
+    <button onclick="setManualMode()">🎮 Manual</button>
+
+    <button onclick="resetGame()">🔄 Restart</button>
+
+</div>
+
+<div id="mobileControls">
+
+    <button onclick="direction='UP'">⬆️</button>
+
+    <div>
+        <button onclick="direction='LEFT'">⬅️</button>
+
+        <button onclick="direction='DOWN'">⬇️</button>
+
+        <button onclick="direction='RIGHT'">➡️</button>
+    </div>
+
+</div>
+
 <body>
 
     <h1>Snake Game</h1>
